@@ -1,0 +1,33 @@
+.session-length {
+  grid-area: sessionLength;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  width: 21.5rem;
+}
+
+.session-length__title {
+  width: 7rem;
+  font-size: var(--fs-section-title);
+  letter-spacing: var(--letter-spacing);
+  text-align: right;
+}
+
+.session-length__controls {
+  display: flex;
+  align-items: center;
+}
+
+.session-length__decrement,
+.session-length__increment {
+  width: 40px;
+  height: 40px;
+}
+
+.session-length__count {
+  width: 3rem;
+  margin-inline: 0.6rem;
+  font-size: var(--fs-count);
+  font-weight: var(--fw-bold);
+  text-align: right;
+}

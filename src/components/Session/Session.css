@@ -1,0 +1,41 @@
+.session {
+  grid-area: clock;
+  display: flex;
+  flex-direction: column;
+  width: 26rem;
+}
+
+.session__container {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  height: 100%;
+}
+
+.session__controls {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.8rem;
+  margin-left: 1rem;
+}
+
+.session__play-pause,
+.session__reset {
+  width: 40px;
+  height: 40px;
+}
+
+.session__title {
+  margin-top: 0.8rem;
+  font-size: var(--fs-section-title);
+  letter-spacing: var(--letter-spacing);
+  text-align: center;
+}
+
+.session__time-left {
+  margin-top: 0.5rem;
+  font-size: var(--fs-countdown);
+  font-weight: var(--fw-bold);
+  letter-spacing: var(--letter-spacing);
+}

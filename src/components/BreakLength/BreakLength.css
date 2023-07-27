@@ -1,0 +1,32 @@
+.break-length {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  width: 21.5rem;
+}
+
+.break-length__title {
+  width: 7rem;
+  font-size: var(--fs-section-title);
+  letter-spacing: var(--letter-spacing);
+  text-align: right;
+}
+
+.break-length__controls {
+  display: flex;
+  align-items: center;
+}
+
+.break-length__decrement,
+.break-length__increment {
+  width: 40px;
+  height: 40px;
+}
+
+.break-length__count {
+  width: 3rem;
+  margin-inline: 0.6rem;
+  font-size: var(--fs-count);
+  font-weight: var(--fw-bold);
+  text-align: right;
+}
