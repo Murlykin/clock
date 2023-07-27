@@ -1,7 +1,7 @@
 .main {
   position: relative;
   width: 70.9rem;
-  height: 35rem;
+  height: 25rem;
   background-color: darkgrey;
   border-radius: 2rem;
   box-shadow: 3.7px 7.4px 10.3px -1px rgba(0, 0, 0, 0.083),
@@ -14,18 +14,16 @@
   font-family: var(--ff-digital);
   font-size: var(--fs-title);
   color: #110844;
-    text-shadow: -1px 0 -1px #050110;
+  text-shadow: -1px 0 -1px #050110;
   text-align: center;
 }
 
 .clock-container {
-  display: grid;
-  grid-template-areas: "clock length";
-  position: absolute;
-  top: 12.5rem;
-  left: 11.5rem;
-  width: 47.5rem;
-  height: 14rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+  gap: 100px;
   font-family: var(--ff-digital);
   color: var(--clr-dark);
   letter-spacing: 0.1rem;
@@ -33,11 +31,10 @@
 }
 
 .length-container {
-  grid-area: length;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-end;
-  gap: 1.8rem;
+  gap: 2.8rem;
   width: 21.5rem;
 }

@@ -2,7 +2,7 @@ import "./App.css";
 import BreakLength from "../../components/BreakLength/BreakLength";
 import SessionLength from "../../components/SessionLength/SessionLength";
 import Session from "../../components/Session/Session";
-import sound from "../../assets/alarm-clock.wav";
+import sound from "../../assets/public_sound_Tada-sound.mp3";
 import { useReducer, useRef, useEffect } from "react";
 
 const initialState = {
